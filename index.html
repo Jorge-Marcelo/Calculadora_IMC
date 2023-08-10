@@ -1,0 +1,92 @@
+<!--
+Autor: Jorge Marcelo
+Data de Criação: 10/08/2023
+Github: https://github.com/Jorge-Marcelo
+Linkedin: https://www.linkedin.com/in/jorge-marcelo-067a5017b/
+Instagram: https://www.instagram.com/10_stronger/
+Threads: https://www.threads.net/@10_stronger
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+<title>Calculadora IMC</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<link rel='stylesheet' type='text/css' media='screen' href='assets/css/style.css'>
+</head>
+<body>
+
+<!--Tag principal-->
+<main>
+
+<!--Formulario-->
+<form>
+<h1>Calcule seu IMC</h1>
+
+<!--Label e Inputs-->
+<section>
+<label>Peso: <span id="peso">20</span></label>
+</section>
+<input type="range" min="20" max="200" id="pesoInput" oninput="calcularIMC()">
+
+    
+<section>
+<label>Altura: <span id="altura">100</span> </label>
+</section>
+<input type="range" min="100" max="250" id="alturaInput" oninput="calcularIMC()">
+
+<!--Resultados-->    
+<h2>Índice de Massa Corporal: <span id="resultado"></span></h2>
+<h2>Categoria: <span id="categoria"></span> </h2>
+<h1>Made By: Jorge Marcelo</h1>
+    
+
+<!--Rodape e Redes Sociais-->
+<footer>
+<table>
+<tr>
+<td>
+<button class="github" id="github">
+<img src="assets/img/github.png" class="margin-button-github">
+</button>
+</td>
+    
+<td>
+<button class="linkedin" id="linkedin">
+<img src="assets/img/linkedin.png">
+</button>
+</td>
+    
+<td>
+<button class="instagram" id="instagram">
+<img src="assets/img/insta.png" class="margin-button">
+</button>
+</td>
+    
+<td>
+<button class="github" id="threads">
+<img src="assets/img/threads.png" class="margin-button">
+</button>
+</td>
+</tr>
+</table>
+</footer>
+  
+<!--Animação-->
+<figure>
+<img src="assets/anim/Neji.png">
+</figure>
+</form>
+</main>
+ 
+    
+
+ 
+    
+
+<script src='assets/js/script.js'></script>
+
+</body>
+</html>
